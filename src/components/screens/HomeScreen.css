@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'baloopaaji2-regular';
+  src: local('baloopaaji2-regular'), url("../../assets/fonts/baloopaaji2-regular-webfont.woff") format('woff');
+  src: local('baloopaaji2-regular'), url("../../assets/fonts/baloopaaji2-regular-webfont.woff2") format('woff2');
+}
+
+h1,h3 {
+  font-family: "baloopaaji2-regular";
+}
+ul,li {
+  font-family: "baloopaaji2-regular";
+}
+a {
+  font-family: "baloopaaji2-regular";
+}
+p {
+  font-family: "baloopaaji2-regular";
+}
+::placeholder {
+  color: #C0CCDA;
+  opacity: 1;
+  font-family: "baloopaaji2-regular";
+}
+input,textarea,select{
+	font-family: "baloopaaji2-regular";
+	font-weight: 600;
+}
+input:focus-visible {
+  outline: none;
+}
